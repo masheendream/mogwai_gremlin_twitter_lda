@@ -1,4 +1,4 @@
-# senior-project-gizmo
+# senior-project-mogwai
 Allows users to pull data from Twitter using the Twitter API and run a machine learning based analysis on an individual Twitter user (or users)
 
 Run:
