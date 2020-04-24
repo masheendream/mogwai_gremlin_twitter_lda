@@ -9,13 +9,23 @@ Preoţiuc-Pietro D, Volkova S, Lampos V, Bachrach Y, Aletras N (2015). Studying 
 
 
 ## To set up: 
+
+### Enter your own Twitter API credentials in the provided credentials.json
+This file is a template for your own credentials.
+
+### Change directory to project.
 ```
-cd senior-project-mogwai/code # change directory
-pip3 install -r requirements.txt --user #install tweepy,gensim,pandas,nltk
+cd senior-project-mogwai/code
+```
+### Install tweepy, gensim, pandas, nltk
+```
+pip3 install -r requirements.txt --user
 ```
 
 ##  To run: 
+### Enter a twitter handle. This file will 
 ```
 python3 user_stats.py 'TWITTER_HANDLE'
 ```
+
 
