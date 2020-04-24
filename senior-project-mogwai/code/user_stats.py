@@ -37,7 +37,7 @@ def topic_scaling(model):
     term_count = model.get_topic_terms(topic[0], model.num_terms)  
     relevant_term_count = [term for term in term_count if term[1] > MINIMUM_RELEVANCE]
 
-    scales.append(len(relevant_term_count) / model.num_terms)  
+    scales.append(model.num_terms / len(relevant_term_count) )  
     
   return scales
 
