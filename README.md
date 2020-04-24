@@ -23,7 +23,7 @@ pip3 install -r requirements.txt --user
 ```
 
 ##  To run: 
-### Enter a twitter handle. This file will 
+### Enter a twitter handle. This command will pull from the Twitter API and process their words. 
 ```
 python3 user_stats.py 'TWITTER_HANDLE'
 ```
