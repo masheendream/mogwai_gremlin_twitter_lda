@@ -1,5 +1,5 @@
 # mogwai_gremlin_twitter_lda
-This repository holds the SIUE Senior Project made by Caleb Hill, Derek Lopez, and Mike Holik for Gremlin Social
+An SIUE Senior Project made by Caleb Hill, Derek Lopez, and Mike Holik for Gremlin Social.
 
 This project uses Latent Dirichlet Allocation (LDA) for twitter topic modelling. Six models are included in this repository, each one has been trained on users from a specific income group. For example, 'lda_model_40-60k_18topics.model' was trained on user text from the 40-60k income group and there are 18 topics used in this particular model. 
 
